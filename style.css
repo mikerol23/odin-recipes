@@ -1,0 +1,89 @@
+.title {
+  font-size: 80px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.title.recipe {
+  font-size: 50px;
+}
+
+a:link, 
+a:visited {
+    color: black
+}
+
+a:hover {
+    color: rgb(109, 109, 109);
+}
+
+a:active {
+    color: rgb(46, 46, 46);
+}
+
+.page {
+  font-size: 50px;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: white;
+}
+
+.home {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 40px;
+}
+
+.visual {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 800px;
+   height: auto;
+
+}
+
+.subsection {
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: lightgray;
+}
+h5 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.wrapper.unordered {
+    text-align: center;
+}
+
+.wrapper.unordered ul {
+    text-align: left;
+    display: inline-block;
+    margin: auto;
+    width: 300px;
+}
+
+.wrapper.ordered {
+    text-align: center;
+}
+
+.wrapper.ordered ol {
+    text-align: left;
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: auto;
+}
+
+ol li {
+    margin-bottom: 25px;
+}
+

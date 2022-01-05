@@ -3,24 +3,26 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-align: center;
   color: white;
-  background-color: black;
+  background-color: #1A374D;
+  margin-bottom: 100px;
 }
 
 .title.recipe {
   font-size: 50px;
+  margin-bottom: auto;
 }
 
-a:link, 
+a:link,
 a:visited {
-    color: black
+  color: #1A374D;
 }
 
 a:hover {
-    color: rgb(109, 109, 109);
+  color: #6998AB;
 }
 
 a:active {
-    color: rgb(46, 46, 46);
+  color: #406882;
 }
 
 .page {
@@ -31,59 +33,71 @@ a:active {
 }
 
 .home {
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-bottom: 40px;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .visual {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   width: 800px;
-   height: auto;
-
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  width: 800px;
+  height: auto;
 }
 
 .subsection {
   font-size: 25px;
   text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: lightgray;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #406882;
+  color: white;
 }
 h5 {
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
 }
 p {
-  margin-left: 20px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20px;
   margin-right: 20px;
 }
 
+li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .wrapper.unordered {
-    text-align: center;
+  text-align: center;
 }
 
 .wrapper.unordered ul {
-    text-align: left;
-    display: inline-block;
-    margin: auto;
-    width: 300px;
+  text-align: left;
+  display: inline-block;
+  margin: auto;
+  width: 300px;
 }
 
 .wrapper.ordered {
-    text-align: center;
+  text-align: center;
 }
 
 .wrapper.ordered ol {
-    text-align: left;
-    display: inline-block;
-    margin-left: 100px;
-    margin-right: 100px;
-    width: auto;
+  text-align: left;
+  display: inline-block;
+  margin-left: 100px;
+  margin-right: 100px;
+  width: auto;
 }
 
 ol li {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
+footer {
+    background-color: #1A374D;
+    height: 100px;
+    margin-top: 120px;
+}
